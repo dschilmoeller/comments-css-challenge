@@ -1,13 +1,60 @@
+.comment-enclosure {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+}
+
 .vote-enclosure {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem; 
+    border: 3px solid orange;
+    text-align: center;
 }
 
-.comment-enclosure {
+.pic-name-text-enclosure {
+    border: 3px solid gray;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.avatar {
     display: flex;
+    margin: 1rem;
+}
+
+.time-posted {
+    margin: 1rem;
+    color: lightgray;
+}
+
+.name {
+    border: 2px solid green;
+    margin: 1rem;
+    font-size: 1.5rem;
 }
 
 .comment {
     display: block;
+    border: 3px solid blue;
 }
 
+
+.replyBtn {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1rem;
+    background-color: white;
+    padding: .25rem;
+    margin-left: 27rem;
+}
+
+.reply-icon {
+    display: flex;
+
+}
