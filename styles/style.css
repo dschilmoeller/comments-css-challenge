@@ -1,4 +1,9 @@
+html {
+    background-color: lightgray;
+    font-family: 'Rubik';
+}
 .comment-enclosure {
+    background-color: white;
     display: flex;
     flex-direction: row;
     border: 3px solid red;
@@ -12,6 +17,15 @@
     margin: 1rem; 
     border: 3px solid orange;
     text-align: center;
+    background-color: hsl(228, 33%, 97%);
+    border-radius: .5rem;
+    height: 4rem;
+}
+
+button {
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
 }
 
 .pic-name-text-enclosure {
@@ -51,10 +65,10 @@
     font-size: 1rem;
     background-color: white;
     padding: .25rem;
-    margin-left: 27rem;
+    margin-left: 23rem;
+    color: darkblue
 }
 
 .reply-icon {
-    display: flex;
-
+    padding: .25rem;
 }
