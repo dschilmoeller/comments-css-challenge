@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-
+  <link href="./styles/style.css" rel="stylesheet">
   <title>CSS Challenge | Interactive comments section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -30,21 +30,24 @@
 </head>
 
 <body>
-
   <!-- Comment #1 -->
-  <div>
+  <div class="comment-enclosure">
     <div class="vote-enclosure">
-      <button class="plus-button">+</button>
+      <button class="plus-button">
+        <img src="./images/icon-plus.svg">
+      </button>
       <div class="vote-count">12</div>
-      <button class="minus-button">-</button>
-    </div>
+      <button class="minus-button">
+        <img src="./images/icon-minus.svg">
+      </button>
+    </div class="pic-name-text-enclosure">
     <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-    <div class="name">amyrobson</div>
-    <div class="time-posted">1 month ago</div>
-    <div class="comment">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the
-    design and the responsiveness at various breakpoints works really well.</div>
+    <h1 class="name">amyrobson <span class="time-posted">1 month ago</span></h1>
+      <p class="comment">Impressive! Though it seems the drag feature could be improved. But overall it looks
+        incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
   </div>
-  <!-- Comment #2 -->
+  </div>
+  <!-- Comment #2
   <div>
     <div class="vote-enclosure">
       <button class="plus-button">+</button>
@@ -54,11 +57,12 @@
     <img src="./images/avatars/image-maxblagun.png" alt="profile" />
     <div class="name">maxblagun</div>
     <div class="time-posted">2 weeks ago</div>
-    <div class="comment">Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into
-    React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</div>
+    <div class="comment">Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I
+      want to dive into
+      React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</div>
   </div>
   <!-- Comment #3 (Reply to comment #2) -->
-  <div>
+  <!-- <div>
     <div class="vote-enclosure">
       <button class="plus-button">+</button>
       <div class="vote-count">4</div>
@@ -67,11 +71,12 @@
     <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
     <div class="name">ramsesmiron</div>
     <div class="time-posted">1 week ago</div>
-    <div class="comment">@maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering
-    React. It's very tempting to jump ahead but lay a solid foundation first.</div>
-  </div>
+    <div class="comment">@maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS
+      before considering
+      React. It's very tempting to jump ahead but lay a solid foundation first.</div>
+  </div> -->
   <!-- Comment #4 (Reply to comment #2) -->
-  <div>
+  <!-- <div>
     <div class="vote-enclosure">
       <button class="plus-button">+</button>
       <div class="vote-count">2</div>
@@ -80,8 +85,9 @@
     <img src="./images/avatars/image-juliusomo.png" alt="profile" />
     <div class="name">juliusomo</div>
     <div class="time-posted">2 days ago</div>
-    <div class="comment">@ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the
-    newest library/framework. But the fundamentals are what stay constant.</div>
+    <div class="comment">@ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like
+      everyone knows the
+      newest library/framework. But the fundamentals are what stay constant.</div>
   </div>
   <div class="add-comment-container">
     <div class="pic-container">
@@ -94,7 +100,7 @@
     Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9"
       target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 
 </html>

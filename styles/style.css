@@ -1,0 +1,13 @@
+.vote-enclosure {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-enclosure {
+    display: flex;
+}
+
+.comment {
+    display: block;
+}
+
